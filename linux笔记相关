@@ -1,0 +1,18 @@
+1:less mkt_biz.log
+2:输入/Exception
+3:按G，N上下查询日志，
+J，K上一条，下一条
+
+4:zless 查看压缩的文件
+
+
+6:查看linux中文件最大的前10个。
+du --max-depth=1 /root/hxl -h |sort -h -r |head -10
+
+7:df -h查看空间大小
+
+8：ps -ef | grep java
+查看tomcat端口号等相关信息
+
+9:拷贝文件到另一台服务器上。
+scp /usr/zookeeper-3.4.6/conf/zoo.cfg root@192.168.61.129:/usr/zookeeper-3.4.6/conf/zoo.cfg
